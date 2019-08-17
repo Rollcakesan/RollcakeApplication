@@ -9,6 +9,7 @@ import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.TextView
@@ -51,6 +52,7 @@ class PlaceholderFragment : Fragment() {
 
         val root = inflater.inflate(R.layout.fragment_main, container, false)
         val wv:WebView = root.findViewById(R.id.webView)
+        wv.webChromeClient = WebChromeClient()
         wv.webViewClient = WebViewClient()
 
 
@@ -64,6 +66,7 @@ class PlaceholderFragment : Fragment() {
         wv.setOnKeyListener { v, i, keyEvent ->(i==KeyEvent.KEYCODE_BACK).apply { wv.goBack() }  }
         wv.isFocusableInTouchMode = true
         wv.requestFocus()
+
 
 
 

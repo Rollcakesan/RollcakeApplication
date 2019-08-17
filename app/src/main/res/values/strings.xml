@@ -9,6 +9,10 @@
     <string name="tab_text_7">pixiv</string>
     <string name="tab_text_8">nana</string>
     <string name="tab_text_9">Twitter</string>
+    <string name="tab_text_10">GitHub</string>
+    <string name="tab_text_11">Vroid Hub</string>
+    <string name="tab_text_12">Skima</string>
+    <string name="tab_text_13">メルカリ</string>
 
 
 
@@ -22,6 +26,10 @@
         <item>https://www.pixiv.net/member.php?id=9962517</item>
         <item>https://nana-music.com/users/7312110</item>
         <item>https://twitter.com/rollcakecreator</item>
+        <item>https://github.com/rollcakesan</item>
+        <item>https://hub.vroid.com/users/9962517</item>
+        <item>https://skima.jp/profile?id=17260</item>
+        <item>https://www.mercari.com/jp/u/583738817/</item>
 
 
     </string-array>

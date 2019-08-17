@@ -1,9 +1,12 @@
 package com.example.rollcakeapplication.ui.main
 
 import android.content.Context
+import android.os.Bundle
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.example.rollcakeapplication.MainActivity
 import com.example.rollcakeapplication.R
 import kotlinx.android.synthetic.main.fragment_main.*
 
@@ -11,8 +14,14 @@ private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,
     R.string.tab_text_2,
     R.string.tab_text_3,
-    R.string.tab_text_4
+    R.string.tab_text_4,
+    R.string.tab_text_5,
+    R.string.tab_text_6,
+    R.string.tab_text_7,
+    R.string.tab_text_8,
+    R.string.tab_text_9
 )
+
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -25,6 +34,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) : 
         // Return a PlaceholderFragment (defined as a static inner class below).
         val instance= PlaceholderFragment.newInstance(position+1)
 
+
             return instance
     }
 
@@ -34,6 +44,6 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) : 
 
     override fun getCount(): Int {
         // Show 4 total pages.
-        return 4
+        return 9
     }
 }

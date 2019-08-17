@@ -2,13 +2,27 @@
     <string name="app_name">RollcakeApplication</string>
     <string name="tab_text_1">ブログ</string>
     <string name="tab_text_2">Instagram</string>
-    <string name="tab_text_3">Twitter</string>
+    <string name="tab_text_3">note</string>
     <string name="tab_text_4">Youtube</string>
+    <string name="tab_text_5">長岡PC事業</string>
+    <string name="tab_text_6">mirrativ</string>
+    <string name="tab_text_7">pixiv</string>
+    <string name="tab_text_8">nana</string>
+    <string name="tab_text_9">Twitter</string>
+
+
+
     <string-array name="urls">
         <item>https://www.rollcake.work/</item>
         <item>https://instagram.com/rollcakecreator/</item>
+        <item>https://note.mu/rollcakecreator</item>
+        <item>https://www.youtube.com/channel/UCVbnpoZpFKYZ2Gm6muMXBCA?view_as=subscriber</item>
+        <item>https://rollcakecreate.com</item>
+        <item>https://www.mirrativ.com/user/1964078/</item>
+        <item>https://www.pixiv.net/member.php?id=9962517</item>
+        <item>https://nana-music.com/users/7312110</item>
         <item>https://twitter.com/rollcakecreator</item>
-        <item>https://youtube.com/</item>
+
 
     </string-array>
 </resources>
